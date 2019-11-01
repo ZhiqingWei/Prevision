@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.back-button {
+	border: none;
+	background: transparent;
+	color: aliceblue;
+}
+
+ .topbar > button {
+     border: none;
+     background: transparent;
+	 color: floralwhite;
+}
+ .topbar .search-form {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0px;
+     padding: 0px 15px;
+     opacity: 0;
+     visibility: hidden;
+     -webkit-transition: 0.3s all;
+     transition: 0.3s all;
+}
+ .topbar .search-form.active {
+     opacity: 1;
+     visibility: visible;
+}
+ .topbar .search-form .search-input {
+     height: 100%;
+     width: 100%;
+     border: none;
+     background: #FFF;
+     padding: 0px;
+     font-weight: 600;
+}
+ .topbar .search-form .search-close {
+     position: absolute;
+     top: 50%;
+     right: 9%;
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+     border: none;
+     background: transparent;
+     line-height: 20px;
+     color: #212631;
+     font-size: 22px;
+     padding: 0;
+}
