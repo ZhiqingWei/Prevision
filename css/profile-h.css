@@ -41,7 +41,7 @@ img {
 
 
 .user::before {
-	content: "用户名: ";
+	content: "ชื่อผู้ใช้: ";
 	font-style: normal;
 }
 

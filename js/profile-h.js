@@ -52,10 +52,10 @@
 			$('.pass').val($('.confirm-pass').val());
 			$('.confirm-pass').val("");
 			$('.new-pass').val("");
-			alert("新密码设置成功！");
+			alert("เปลี่ยนรหัสผ่านสำเร็จแล้ว");
 		}
 		else {
-			alert("两次输入密码不匹配，请重试。")
+			alert("รหัสผ่านไม่ถูกต้อง")
 		}
 	})
 	
