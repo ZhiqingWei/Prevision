@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	padding: 70px 10px 0 10px;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+strong {
+	color: mediumaquamarine;
+}
+
+section {
+	display: flex;
+	padding: 20px 30px 0 30px;
+	border-top :solid grey;
+}
+
+section .container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: baseline;
+}
+
+.container > a {
+	font-size: 25px;
+}
+
+.author {
+	font-size: 20px;
+	color: darkseagreen;
+}
+
+.preview {
+	font-size: 14px;
+	font-style: italic;
+}
+
+.back-button {
+	border: none;
+	background: transparent;
+	color: aliceblue;
+}

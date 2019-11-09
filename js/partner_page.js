@@ -25,15 +25,13 @@
     target: '#mainNav',
     offset: 56
   });
-
-	// Search Nav
-	$('.search-btn').on('click', function () {
-		$('.search-form').addClass('active');
+	
+	$('.back-button').on('click', function () {
+		window.history.back();
 	});
-
-	$('.search-close').on('click', function () {
-		$('.search-form').removeClass('active');
-	});
+	
+	var url = window.sessionStorage.getItem("location");
+	$('#container').html(url);
 
 
 })(jQuery); // End of use strict
