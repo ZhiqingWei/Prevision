@@ -90,6 +90,46 @@ header {
 	color: aliceblue;
 }
 
+/*filter*/
+
+.dropbutton {
+    background: transparent;
+	color: floralwhite;
+    padding-left: 20;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 70px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+	align-content: center;
+   	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 5px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color:#B2AFAF
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 /*----------------------------*\
 	post widget
 \*----------------------------*/
