@@ -1,0 +1,142 @@
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+
+.row {
+	padding: 70px 0;
+}
+
+
+.back-button {
+	border: none;
+	background: transparent;
+	color: aliceblue;
+}
+
+.topbar > button {
+     border: none;
+     line-height: 20px;
+     background: transparent;
+	color: aliceblue;
+}
+
+.topbar .search-form {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0px;
+     padding: 0px 15px;
+     opacity: 0;
+     visibility: hidden;
+     -webkit-transition: 0.3s all;
+     transition: 0.3s all;
+}
+
+.topbar .search-form.active {
+     opacity: 1;
+     visibility: visible;
+}
+.topbar .search-form .search-input {
+     height: 100%;
+     width: 100%;
+     border: none;
+     background: #FFF;
+     padding: 0px;
+     font-weight: 600;
+}
+.topbar .search-form .search-submit {
+	 position: absolute;
+     top: 50%;
+     right: 50px;
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+     border: none;
+     line-height: 20px;
+     color: #212631;
+     font-size: 15px;
+     padding: 10px 18px;
+}
+
+.topbar .search-form .search-submit:hover {
+	background-color: aliceblue;
+}
+
+.topbar .search-form .search-close {
+     position: absolute;
+     top: 50%;
+     right: 15px;
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+     border: none;
+     background: transparent;
+     line-height: 20px;
+     color: #212631;
+     font-size: 22px;
+     padding: 0;
+}
+
+.nav-item > a {
+	border: none;
+    background: transparent;
+	color: white;
+	display: inline;
+}
+
+.container > a {
+	color: aliceblue;
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+}
+
+
+box{
+background: blue;
+cursor: pointer;
+}
+
+mark {
+	background: transparent;
+	color: yellow;
+}
+
+li:hover {
+	background-color: grey;
+}
+
+.side {
+	border: solid grey;	
+	border-radius: 1em;
+	margin-left: 10px;
+}
+
+.section-title {
+	text-align: center;
+}
+
+.one:before {
+	content: "1";
+	font-size: 18px;
+	margin-left: 30px;
+	border: solid red;
+	color: red;
+}
+
+.two:before {
+	content: "2";
+	font-size: 18px;
+	margin-left: 30px;
+	border: solid;
+}
+
+.three:before {
+	content: "3";
+	font-size: 18px;
+	margin-left: 30px;
+	border: solid;
+}

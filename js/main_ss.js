@@ -38,7 +38,7 @@
 	   }
 		else {
 			e.preventDefault(e);
-			alert("Welcome back!");
+			alert("Please fill in all the fields.");
 			return false;
 		}
     });

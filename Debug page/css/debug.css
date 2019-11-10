@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content {
+	padding: 80px 20px 10px 20px;
+	text-align: center;
+}
+
+#error, #response {
+	width: auto;
+	height: 90vh;
+}
+
+#error {
+	padding-bottom: 40px;
+}

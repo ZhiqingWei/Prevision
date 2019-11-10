@@ -120,6 +120,7 @@ header {
 \*----------------------------*/
 .section-title {
      margin-bottom: 40px;
+	text-align: center;
 }
 .section-title h2 {
      text-transform: capitalize;
@@ -128,7 +129,7 @@ header {
 
 #moreinfo {
 	position: relative;
-	left: 150px;
+	left: 5px;
 }
 
 .side {
